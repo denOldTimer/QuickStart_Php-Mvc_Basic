@@ -2,9 +2,7 @@
 
 [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url] [![Build Status][travis-image]][travis-url] [![Dependencies][dep-image]][dep-url] [![devDependencies][devdep-image]][devdep-url]
 
-Is an automated workflow with Npm & Webpack-Encore.
-Upon build it will create a complete php-mvc distribution folder.
-All you have to do is publish the contents of the dist folder into the root of your webser.
+Is an automated workflow with Npm & Webpack-Encore. Upon build it will create a complete php-mvc distribution folder. All you have to do is publish the contents of the dist folder into the root of your webser.
 
 ## How to use this project
 
@@ -29,7 +27,7 @@ Included in the Php-Mvc are:
 `https://github.com/ScorpioCoding/Quickstart_Php-Mvc_basic.git`
 
 [greenkeeper-url]: https://greenkeeper.io/
-[greenkeeper-image]: https://badges.greenkeeper.io/ScorpioCoding/Quickstart_Php-Mvc_basic.svg?style=flat-square
+[greenkeeper-image]: https://badges.greenkeeper.io/scQuickstart/Quickstart_Php-Mvc_Basic.svg?style=flat-square
 [travis-url]: https://travis-ci.org/ScorpioCoding/Quickstart_Php-Mvc_basic
 [travis-image]: https://travis-ci.org/ScorpioCoding/Quickstart_Php-Mvc_basic.svg?branch=master
 [dep-url]: https://david-dm.org/ScorpioCoding/Quickstart_Php-Mvc_basic
@@ -43,6 +41,7 @@ Included in the Php-Mvc are:
 - 2.0.0 - [30-04-2019] Dependency Updates
 - 2.1.0 - [17-05-2019] Dependency Updates
 - 2.1.1 - [18-05-2019] Webpack SingleRunTime Error
+- 2.3.0 - [19-06-2019] Dependency Updates
 
 ## Updates
 
@@ -52,3 +51,5 @@ Included in the Php-Mvc are:
      - jquery ^3.4.0 → ^3.4.1
 - 2019-05-18
   1.  Webpack SingleRuntime Error
+- 2019-06-19
+  1. Dependency Updates
