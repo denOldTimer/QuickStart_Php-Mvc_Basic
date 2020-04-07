@@ -28,12 +28,12 @@ Included in the Php-Mvc are:
 
 [greenkeeper-url]: https://greenkeeper.io/
 [greenkeeper-image]: https://badges.greenkeeper.io/scQuickstart/Quickstart_Php-Mvc_Basic.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ScorpioCoding/Quickstart_Php-Mvc_basic
-[travis-image]: https://travis-ci.org/ScorpioCoding/Quickstart_Php-Mvc_basic.svg?branch=master
-[dep-url]: https://david-dm.org/ScorpioCoding/Quickstart_Php-Mvc_basic
-[dep-image]: https://david-dm.org/ScorpioCoding/Quickstart_Php-Mvc_basic/status.svg?style=flat
-[devdep-url]: https://david-dm.org/ScorpioCoding/Quickstart_Php-Mvc_basic?type=dev
-[devdep-image]: https://david-dm.org/ScorpioCoding/Quickstart_Php-Mvc_basic/dev-status.svg?style=flat
+[travis-url]: https://travis-ci.org/scQuickstart/Quickstart_Php-Mvc_Basic
+[travis-image]: https://travis-ci.org/scQuickstart/Quickstart_Php-Mvc_Basic.svg?branch=master
+[dep-url]: https://david-dm.org/scQuickstart/Quickstart_Php-Mvc_Basic
+[dep-image]: https://david-dm.org/scQuickstart/Quickstart_Php-Mvc_Basic/status.svg?style=flat
+[devdep-url]: https://david-dm.org/scQuickstart/Quickstart_Php-Mvc_Basic?type=dev
+[devdep-image]: https://david-dm.org/scQuickstart/Quickstart_Php-Mvc_Basic/dev-status.svg?style=flat
 
 ## Version Control
 
