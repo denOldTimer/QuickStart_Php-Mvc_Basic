@@ -2,7 +2,7 @@
 namespace App\Core;
 
 /**
-    * Class Functions with public accesable functions
+    * Class Functions with public accessible functions
     */
 class Functions
 {
@@ -28,40 +28,40 @@ class Functions
     * @params   int     $renderOption 0,1,2
     * @params   array   $paths
     */
-    public static function chckPath ( $renderOption, $paths = array() )
+    public static function checkPath ( $renderOption, $paths = array() )
     {
         if (empty( $renderOption ) )
-            throw new \Exception("Functions.php : chckPath : renderOption required !");
+            throw new \Exception("Functions.php : checkPath : renderOption required !");
         foreach( $paths[$renderOption] as $path)
             if ( !is_readable( $path ) )
-                throw new \Exception("Functions.php : chckPath : File doesn't exist : $path");
+                throw new \Exception("Functions.php : checkPath : File doesn't exist : $path");
             else
                 return true;
-    } //END chckPath
+    } //END checkPath
 
 
     /*
-    * rendering the pagel - View.php
+    * rendering the page - View.php
     * @params   int    $renderOption 0,1,2
     * @params   array   $paths
     * @params   array   $data
     */
     public static function renderPage($renderOption, $paths = array(), $data = array() )
     {
-        if ( self::chckPath ( $renderOption, $paths) )
+        if ( self::checkPath ( $renderOption, $paths) )
         {
             extract( $data );
             foreach( $paths[$renderOption] as $path) {
                 if (is_readable( $path ) ) {
                     require $path;
                 } else {
-                    throw new \Exception("Functions.php : renderPage : NO such document existis : $path");
+                    throw new \Exception("Functions.php : renderPage : NO such document exits : $path");
                 }
 
             }
         }
         else
-            throw new \Exception("Functions.php : renderPage : the chckPath : FAILED");
+            throw new \Exception("Functions.php : renderPage : the checkPath : FAILED");
     } //END renderPage
 
 

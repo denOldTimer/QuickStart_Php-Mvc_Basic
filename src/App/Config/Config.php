@@ -25,8 +25,8 @@ class Config
   private static $DB_TYPE = "mysql";
   private static $DB_HOST = "127.0.0.1";
   private static $DB_NAME = "dB";
-  private static $DB_USER = "dBuser";
-  private static $DB_PASS = "dBpsw";
+  private static $DB_USER = "dB-user";
+  private static $DB_PASS = "dB-passwd";
   public function getPdoConnection()
   {
     $dns = "";

@@ -131,7 +131,7 @@ abstract class Controller
 			return $scTest;
 		}
 		else
-			throw new Exception("Controller.php : getScTest : File doesnt exist : $file");
+			throw new Exception("Controller.php : getScTest : File doesn't exist : $file");
 	}
 
 	public function html2text($Document) {
@@ -172,7 +172,7 @@ abstract class Controller
     /**
      * Before filter - called before an action method.
      *
-     * @paran  string $lang  'en, nl, fr , etc'
+     * @param  string $lang  'en, nl, fr , etc'
      * @return object $trans
      */
 	protected function getTranslation($lang)
@@ -180,7 +180,7 @@ abstract class Controller
 		//a method to access / bind the translation to a view/ Model variables
 		//eg.    in the template header the title
 		// en.json  en  - title = english
-		// nl.json  nl  - title = nederlands
+		// nl.json  nl  - title = netherlands
 
 		//these translation files can be outsourced
 

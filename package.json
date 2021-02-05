@@ -1,28 +1,28 @@
 {
   "name": "quickstart_php-mvc_basic",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Starter Kit Web Projects",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "@symfony/webpack-encore": "^0.28.3",
-    "autoprefixer": "^9.7.6",
-    "copy-webpack-plugin": "^5.1.1",
-    "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.20.2",
+    "@symfony/webpack-encore": "^1.0.4",
+    "autoprefixer": "^10.2.4",
+    "copy-webpack-plugin": "^7.0.0",
+    "eslint": "^7.19.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "fibers": "^4.0.2",
-    "jquery": "^3.4.1",
-    "node-sass": "^4.13.1",
-    "postcss-loader": "^3.0.0",
-    "sass": "^1.26.3",
-    "sass-loader": "^8.0.2",
-    "stylelint": "^13.3.0",
+    "eslint-plugin-standard": "^4.1.0",
+    "fibers": "^5.0.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^5.0.0",
+    "sass": "^1.32.6",
+    "sass-loader": "^10.1.1",
+    "stylelint": "^13.9.0",
     "stylelint-config-standard": "^20.0.0",
-    "webpack-notifier": "^1.8.0"
+    "webpack-notifier": "^1.13.0"
   },
   "scripts": {
     "dev": "encore dev",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scQuickStart/Quickstart_Php-Mvc_Basic.git"
+    "url": "git+https://github.com/denOldTimer/Quickstart_Php-Mvc_Basic.git"
   },
   "keywords": [
     "webpack-encore",
@@ -39,10 +39,10 @@
     "scss",
     "php-mvc"
   ],
-  "author": "ScorpioCoding",
+  "author": "denOldTimer",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/scQuickStart/Quickstart_Php-Mvc_Basic.git/issues"
+    "url": "https://github.com/denOldTimer/Quickstart_Php-Mvc_Basic.git/issues"
   },
-  "homepage": "https://github.com/scQuickStart/Quickstart_Php-Mvc_Basic.git#readme"
+  "homepage": "https://github.com/denOldTimer/Quickstart_Php-Mvc_Basic.git#readme"
 }

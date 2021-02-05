@@ -2,7 +2,7 @@
 
 [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url] [![Build Status][travis-image]][travis-url] [![Dependencies][dep-image]][dep-url] [![devDependencies][devdep-image]][devdep-url]
 
-Is an automated workflow with Npm & Webpack-Encore. Upon build it will create a complete php-mvc distribution folder. All you have to do is publish the contents of the dist folder into the root of your webser.
+Is an automated workflow with Npm & Webpack-Encore. Upon build it will create a complete php-mvc distribution folder. All you have to do is publish the contents of the dist folder into the root of your webserver.
 
 ## How to use this project
 
@@ -22,7 +22,7 @@ Included in the Php-Mvc are:
 - Core classes for database handling via PDO
 - Core classes for session handling
 - translation via JSON files
-- Stylint & ESLint
+- Stylelint & ESLint
 
 `https://github.com/ScorpioCoding/Quickstart_Php-Mvc_basic.git`
 
@@ -43,6 +43,9 @@ Included in the Php-Mvc are:
 - 2.1.1 - [18-05-2019] Webpack SingleRunTime Error
 - 2.3.0 - [19-06-2019] Dependency Updates
 - 3.0.0 - [07-04-2020] Dependency Updates
+- 4.0.0 - [05-02-2021] Dependency Updates 
+                      mkdir config 
+                      mv file webpack.config.js -> /config/webpack.config.js
 
 ## Updates
 
@@ -56,3 +59,20 @@ Included in the Php-Mvc are:
   1. Dependency Updates
 - 2020-04-07
   1. Dependency Updates
+- 2021-02-05
+  1. Dependency Updates
+     - "@symfony/webpack-encore": "^0.28.3" -> "^1.0.4",
+     - "autoprefixer": "^9.7.6" -> "^10.2.4",
+     - "copy-webpack-plugin": "^5.1.1" -> "^7.0.0",
+     - "eslint": "^6.8.0" -> "^7.19.0",
+     - "eslint-config-standard": "^14.1.1" -> "^16.0.2",
+     - "eslint-plugin-import": "^2.20.2" -> "^2.22.1",
+     - "eslint-plugin-standard": "^4.0.1" -> "^4.1.0",
+     - "fibers": "^4.0.2" -> "^5.0.0",
+     - "jquery": "^3.4.1" -> "^3.5.1",
+     - "node-sass": "^4.13.1" -> "^5.0.0",
+     - "postcss-loader": "^3.0.0" -> "^5.0.0",
+     - "sass": "^1.26.3" -> "^1.32.6",
+     - "sass-loader": "^8.0.2" -> "^10.1.1",
+     - "stylelint": "^13.3.0" -> "^13.9.0",
+     - "webpack-notifier": "^1.8.0" -> "^1.13.0"

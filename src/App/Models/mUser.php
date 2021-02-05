@@ -16,14 +16,14 @@ class mUser extends Model
     /*
      * getRowCountUser : function to check if the user with password even exists
      * sc_users.username is not null, unique
-     * sc_users.pasw is not null,
+     * sc_users.passwd is not null,
      * @params : $email    :    string
-     * @params : $pasw    :    string  - encription
+     * @params : $passwd    :    string  - encryption
      */
-    public static function getRowCountUser($email, $psw)
+    public static function getRowCountUser($email, $passwd)
     {
         $dB = self::getdb();
-        return $dB->rowcount("SELECT * FROM sc_user WHERE email='$email' AND psw='$psw' ");
+        return $dB->rowcount("SELECT * FROM sc_user WHERE email='$email' AND psw='$passwd' ");
     }
 
     /*

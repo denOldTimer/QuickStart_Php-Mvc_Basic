@@ -10,7 +10,7 @@ class Database extends PDO
     public function __construct()
     {
       $pdo = Config::getPdoConnection();
-      parent::__construct($pdo['dns'],$pdo['user'],$pdo['psw']);
+      parent::__construct($pdo['dns'],$pdo['user'],$pdo['passwd']);
         //parent::setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTIONS);
     }
 
@@ -29,7 +29,7 @@ class Database extends PDO
 
   /* Select
    * @param string $sql An SQL string
-   * @param array $array Paramters to bind
+   * @param array $array Parameters to bind
    * @param constant $fetchMode A PDO Fetch mode
    * @return mixed
    */
